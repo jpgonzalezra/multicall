@@ -16,8 +16,7 @@
     ]
   },
   "scripts": {
-    "deploy": "run(){ truffle deploy --network=$@; }; run",
-    "prepare": "yarn truffle compile"
+    "deploy": "run(){ truffle deploy --network=$@; }; run"
   },
   "repository": {
     "type": "git",

@@ -1,7 +1,7 @@
 pragma solidity >=0.5.0;
 pragma experimental ABIEncoderV2;
 
-import "./lib/ds-test/src/test.sol";
+import "./lib/ds-test/test.sol";
 import "./Multicall.sol";
 
 contract Store {
