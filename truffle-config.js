@@ -1,0 +1,22 @@
+const package = require("./package");
+
+module.exports = {
+  networks: {
+    development: {
+      host: "localhost",
+      port: 8545,
+      network_id: "*", // Match any network id
+    },
+  },
+  compilers: {
+    solc: {
+      version: package.dependencies.solc,
+      settings: {
+        optimizer: {
+          enabled: false,
+        },
+        evmVersion: "petersburg",
+      },
+    },
+  },
+};
